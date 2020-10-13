@@ -1,0 +1,62 @@
+html{
+	font-family: 'Noto Sans KR', sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+img {
+	display: block;
+	position: absolute;
+	height: auto;
+}
+.circle{
+  width:264px;
+  height:264px;
+  border-radius: 50%;
+  position: absolute;
+}
+.solid{
+	border: 0.75px solid black;
+	opacity: 50%;
+}
+.small1{
+	font-weight: 600;
+	font-size: 0.65rem;
+	position: absolute;
+	word-spacing: 1.1px;
+	letter-spacing: 0.08px;
+}
+.small2{
+	font-weight: 600;
+	font-size: 0.68rem;
+	position: absolute;
+	word-spacing: 0.6px;
+	letter-spacing: 0.08px;
+}
+.medium1{
+	font-weight: 500;
+	font-size: 1.6rem;
+	position: absolute;
+	line-height: 1.18;
+	word-spacing: 0.2rem;
+	letter-spacing: 0.08rem;
+}
+.medium2{
+	font-weight: 500;
+	font-size: 4rem;
+	position: absolute;
+	line-height: 1.18;
+	word-spacing: -0.2rem;
+	letter-spacing: -0.1rem;
+}
+.trapezoid {
+	border-bottom: 158px solid transparent;
+	border-left: 46px solid transparent;
+	border-right: 46px solid transparent;
+	height: 0;
+	width: 125px;
+	position: absolute;
+	transition: all 1s ease-in-out;
+}
